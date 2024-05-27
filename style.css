@@ -1,0 +1,52 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(152,148,233,1) 100%);
+}
+
+#cambiandoletra{
+    font-family:cursive;
+}
+
+#imagen{
+    background-image: url(./IMG/todo3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+h1{
+    font-family:verdana;
+    font-size:10px;
+    color:rgb(20, 20, 20);
+    text-shadow: 3px  0px 0px black,
+                 0px  3px 0px black,
+                -3px  0px 0px black,
+                 0px -3px 0px black;
+}
+
+.container{
+    border-width: 10px;
+    border-style: double;
+}
+
+
+.Eliminador{
+    color: red;
+    cursor: pointer;
+}
+
+
+.fondo{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,207,233,1) 100%);
+}
+
+.botoncolor{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100%);
+}
+
+#creaTarea::placeholder{
+color: blue;
+}
+
